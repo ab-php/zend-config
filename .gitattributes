@@ -1,0 +1,52 @@
+
+#
+## 'export-ignore' will keep these files out of your 'git archive'
+#
+
+# Ignore all test and documentation with "export-ignore".
+/tests                       export-ignore
+/docs                        export-ignore
+/.editorconfig               export-ignore
+/.gitattributes              export-ignore
+/.gitignore                  export-ignore
+
+#
+## File Line Ending & Diff Type Mappings 
+#
+
+# Text Files
+
+*.php          text eol=lf diff=php
+*.phtml        text eol=lf diff=php
+*.twig         text eol=lf
+*.html         text eol=lf
+*.css          text eol=lf
+*.scss         text eol=lf 
+*.less         text eol=lf
+*.js           text eol=lf
+*.json         text eol=lf
+*.md           text eol=lf
+*.yml          text eol=lf
+*.ini          text eol=lf
+*.svg          text eol=lf
+*.py           text eol=lf
+*.rb           text eol=lf
+
+# Do not diff maps
+*.map   binary      
+
+# Common Binary Files
+
+*.jpg   binary
+*.png   binary
+*.ico   binary
+*.psd   binary
+*.mp4   binary
+*.mov   binary
+*.ttf   binary
+*.woff  binary
+*.woff2 binary
+*.eot   binary
+
+
+

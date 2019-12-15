@@ -1,0 +1,26 @@
+{
+    "name": "ab/zend-config",
+    "description": "The \\Zend\\Config package pre-configured with YAML decoding.",
+    "type": "project",
+    "autoload": { 
+      "files": [
+       "register.php" 
+      ]
+    },
+    "require": {
+        "zendframework/zend-config": "3.*",
+        "symfony/yaml": "^3.0 | ^4.0 | ^5.0"
+    },
+    "license": "Unlicense",
+    "authors": [
+        {
+            "name": "A.B. Carroll",
+            "email": "ben@hl9.net"
+        }
+    ],
+    "suggests": { 
+      "zendframework/zend-config": "To use zend-config",
+      "symfony/yaml": "So you can use the YAML decoder"
+    },
+    "minimum-stability": "stable"
+}

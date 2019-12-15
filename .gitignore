@@ -1,0 +1,89 @@
+### composer.lock:
+composer.lock
+
+# =========================================================================== #
+### CommonGitIgnore version 2019-11-15
+# =========================================================================== #
+# Do NOT edit below this line, it is meant to be periodically updated from    #
+# the 'skel-app' repository.  Modifications made to this section may be       #
+# overwritten.                                                                #
+
+## ===== Generic ===== ##
+var/
+*.log
+*.tmp
+*.pid
+*.lastRun
+
+## ===== Composer ===== ##
+# The '/vendor/' line below only excludes the 'vendor/' directory if it is at   #
+# the root of the git repository.  If you would like to exclude ALL directories #
+# named 'vendor/', please include the line 'vendor/' under application-specific #
+# ignores at the top of this file.                                              #
+composer.phar
+composer.lock
+/vendor/
+
+## ===== IDE Related ===== ##
+# JetBrains IDE
+.idea/
+*.iml
+*.iws
+
+# Netbeans IDE
+nbproject/
+
+# Vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+
+# Dreamweaver
+# 'configs/' seems quite dangerous/generic and likely to conflict with real
+# app data in the future
+configs/
+_compareTemp/
+_notes/
+dwsync.xml
+*.mno
+dw_php_codehinting.config
+
+## ===== Operating System Related ===== ##
+# MacOS
+*.DS_Store
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.lnk
+
+# Linux & Linux Window Managers
+.Trash-*
+
+## ===== Third Party ===== ##
+# LetsEncrypt webroot verification files
+.well-known/
+
+# npm modules
+node_modules/
+
+# bower components
+bower_components
+
+## ===== Safety & Privacy Related ===== ##
+# NEVER negate these rules via '!foo.priv'.
+
+*.pem
+*.ppk
+*.priv
+*.cert
+*.chain
+id_[r|d|ecd]sa*
+id_ed25519*
+
+# ==========
+# DO NOT ADD EXCLUSIONS AT THE END OF THIS FILE!
+# Add them to the application-specific section at the TOP of this file.
+# ==========
+# EOF
